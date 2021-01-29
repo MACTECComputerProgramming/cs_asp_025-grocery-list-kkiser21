@@ -32,7 +32,7 @@
         </Rectangle>
 
 
-        <TextBox x:Name="tboxItemAmmount" HorizontalAlignment="Left" Margin="70,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" />
+        <TextBox x:Name="tboxItemAmount" HorizontalAlignment="Left" Margin="70,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" />
         <TextBox x:Name="tboxItemName" HorizontalAlignment="Left" Margin="70,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
         <TextBox x:Name="tboxItemPrice" HorizontalAlignment="Left" Margin="232,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
         <Label Content="Item Name" HorizontalAlignment="Left" Margin="70,248,0,0" VerticalAlignment="Top"/>

@@ -35,7 +35,7 @@ namespace Grocery_List_Challenge {
 
 
         private void newlist() {
-            listarray = new string[Convert.ToInt32(tboxItemAmmount.Text)];
+            listarray = new string[Convert.ToInt32(tboxItemAmount.Text)];
         }
 
 
