@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Grocery_List_Challenge</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="groc.jpg" />
+    <None Remove="https___specials-images.forbesimg.com_imageserve_1141999659_0x0.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="https___specials-images.forbesimg.com_imageserve_1141999659_0x0.jpg" />
+  </ItemGroup>
+
+</Project>

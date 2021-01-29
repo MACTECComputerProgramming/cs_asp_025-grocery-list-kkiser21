@@ -1,0 +1,47 @@
+﻿<Window x:Class="Grocery_List_Challenge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grocery_List_Challenge"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Image Source="/https___specials-images.forbesimg.com_imageserve_1141999659_0x0.jpg" Margin="-160,0,-178,-7" Stretch="Fill"/>
+
+        <Label x:Name="lblList" Content="" HorizontalAlignment="Left" Margin="428,10,0,0" VerticalAlignment="Top" Height="331" Width="338" FontSize="24" FontWeight="Normal">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0046FF"/>
+                    <GradientStop Color="#FF829FEE" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+
+        <Rectangle HorizontalAlignment="Left" Height="139" Margin="50,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="302" Fill="#FFEE8A5C" StrokeThickness="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="176" Margin="50,218,0,0" Stroke="Black" VerticalAlignment="Top" Width="350" StrokeThickness="2">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF3993FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+
+        <TextBox x:Name="tboxItemAmmount" HorizontalAlignment="Left" Margin="70,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center" />
+        <TextBox x:Name="tboxItemName" HorizontalAlignment="Left" Margin="70,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="tboxItemPrice" HorizontalAlignment="Left" Margin="232,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Center"/>
+        <Label Content="Item Name" HorizontalAlignment="Left" Margin="70,248,0,0" VerticalAlignment="Top"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="232,248,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number of Items in List" HorizontalAlignment="Left" Margin="70,14,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="btn2" Content="Add Item" HorizontalAlignment="Left" Margin="70,357,0,0" VerticalAlignment="Top" Click="Button_Click_1" Visibility="Hidden"/>
+        <Button x:Name="btn1" Content="New List" HorizontalAlignment="Left" Margin="70,94,0,0" VerticalAlignment="Top" Height="35" Width="60" Click="Button_Click"/>
+        <Label x:Name="lblTellToAdd" Content="" HorizontalAlignment="Left" Margin="70,217,0,0" VerticalAlignment="Top" FontSize="16" Width="282"/>
+        <Label x:Name="lblTotal" Content="" HorizontalAlignment="Left" Margin="428,357,0,0" VerticalAlignment="Top" Width="338" Height="37" FontSize="16" FontWeight="Bold" Background="#FFA2A0A0"/>
+
+    </Grid>
+</Window>
